@@ -1,0 +1,30 @@
+[
+    {
+        "Name": "ids-network",
+        "Id": "713c665534f0b3428895cb06b8c4762cf43ca6d1b11c9e07a45dda6016c9ecc0",
+        "Created": "2026-11-04T16:15:18.777054642-05:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv4": true,
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": {},
+            "Config": [
+                {
+                    "Subnet": "172.20.0.0/24"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {},
+        "Options": {},
+        "Labels": {}
+    }
+]

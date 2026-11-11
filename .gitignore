@@ -1,0 +1,23 @@
+
+# Suricata cache
+/suricata/cache/
+
+# Suricata runtime logs and packet captures
+/suricata/logs/*
+!/suricata/logs/.gitkeep
+/suricata/*.log
+/suricata/*.pcap
+/suricata/*.pcap.*
+
+# Downloaded Emerging Threats rules
+/suricata/rules/suricata.rules
+
+# Temporary files
+/suricata/*.pid
+/suricata/*.sock
+
+# Backup configurations
+*.bak
+
+# Suricata update cache
+/suricata/update/cache/
